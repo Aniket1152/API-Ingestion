@@ -1,7 +1,7 @@
 import sys
 from src.api_client import fetch_all_countries_multithreaded
 from src.data_processor import process_countries_data
-from src.data_storage import save_data_to_file
+from src.data_storage import save_data_as_dataframe_and_json
 from logger_config import setup_logger
 
 logger = setup_logger()
@@ -23,11 +23,13 @@ def main():
             logger.error("No valid data after processing, exiting pipeline")
             return False
         
-        # Step 3: Save data
-        success = save_data_to_file(processed_data)
+        # Step 3: Save data as both JSON and DataFrame (CSV)
+        success = save_data_as_dataframe_and_json(processed_data)
         
         if success:
             logger.info("Pipeline completed successfully")
+            print("Pipeline completed successfully!")
+            print("Data saved as both JSON and CSV formats")
             return True
         else:
             logger.error("Pipeline failed during data saving")
