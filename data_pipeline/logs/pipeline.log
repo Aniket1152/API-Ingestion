@@ -2066,3 +2066,31 @@
 2025-09-21 16:06:59,982 - country_pipeline - INFO - Pipeline completed successfully
 2025-09-21 16:06:59,982 - country_pipeline - INFO - Pipeline completed successfully
 2025-09-21 16:06:59,982 - country_pipeline - INFO - Pipeline completed successfully
+2025-09-21 16:18:02,225 - country_pipeline - WARNING - Missing field population in country data: {'common': 'Test Country'}
+2025-09-21 16:18:02,225 - country_pipeline - WARNING - Missing field population in country data: {'common': 'Test Country'}
+2025-09-21 16:18:02,226 - country_pipeline - WARNING - Invalid population data for {'common': 'Test Country'}
+2025-09-21 16:18:02,226 - country_pipeline - WARNING - Invalid population data for {'common': 'Test Country'}
+2025-09-21 16:18:02,227 - country_pipeline - WARNING - Invalid population data for {'common': 'Test Country'}
+2025-09-21 16:18:02,227 - country_pipeline - WARNING - Invalid population data for {'common': 'Test Country'}
+2025-09-21 16:18:05,557 - country_pipeline - INFO - Starting data processing and validation
+2025-09-21 16:18:05,557 - country_pipeline - INFO - Starting data processing and validation
+2025-09-21 16:18:05,557 - country_pipeline - INFO - Processed 5 valid countries, 0 invalid
+2025-09-21 16:18:05,557 - country_pipeline - INFO - Processed 5 valid countries, 0 invalid
+2025-09-21 16:18:05,560 - country_pipeline - INFO - Starting data processing and validation
+2025-09-21 16:18:05,560 - country_pipeline - INFO - Starting data processing and validation
+2025-09-21 16:18:05,560 - country_pipeline - INFO - Processed 0 valid countries, 0 invalid
+2025-09-21 16:18:05,560 - country_pipeline - INFO - Processed 0 valid countries, 0 invalid
+2025-09-21 16:18:20,679 - country_pipeline - WARNING - Missing field population in country data: {'common': 'Test Country'}
+2025-09-21 16:18:20,679 - country_pipeline - WARNING - Missing field population in country data: {'common': 'Test Country'}
+2025-09-21 16:18:20,681 - country_pipeline - WARNING - Invalid population data for {'common': 'Test Country'}
+2025-09-21 16:18:20,681 - country_pipeline - WARNING - Invalid population data for {'common': 'Test Country'}
+2025-09-21 16:18:20,681 - country_pipeline - WARNING - Invalid population data for {'common': 'Test Country'}
+2025-09-21 16:18:20,681 - country_pipeline - WARNING - Invalid population data for {'common': 'Test Country'}
+2025-09-21 16:18:22,032 - country_pipeline - INFO - Starting data processing and validation
+2025-09-21 16:18:22,032 - country_pipeline - INFO - Starting data processing and validation
+2025-09-21 16:18:22,032 - country_pipeline - INFO - Processed 5 valid countries, 0 invalid
+2025-09-21 16:18:22,032 - country_pipeline - INFO - Processed 5 valid countries, 0 invalid
+2025-09-21 16:18:22,035 - country_pipeline - INFO - Starting data processing and validation
+2025-09-21 16:18:22,035 - country_pipeline - INFO - Starting data processing and validation
+2025-09-21 16:18:22,035 - country_pipeline - INFO - Processed 0 valid countries, 0 invalid
+2025-09-21 16:18:22,035 - country_pipeline - INFO - Processed 0 valid countries, 0 invalid
