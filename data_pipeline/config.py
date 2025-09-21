@@ -7,12 +7,16 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 def load_config(config_file="config.yaml"):
     """Load configuration from YAML file"""
+    # Look for config file in project root
+    config_path = os.path.join(PROJECT_ROOT, config_file)
+    
     try:
-        with open(config_file, 'r') as f:
+        with open(config_path, 'r') as f:
             config = yaml.safe_load(f)
+        print(f"Loaded config from {config_path}")
         return config
     except FileNotFoundError:
-        print(f"Config file {config_file} not found, using defaults")
+        print(f"Config file {config_path} not found, using defaults")
         return get_default_config()
     except Exception as e:
         print(f"Error loading config: {e}")

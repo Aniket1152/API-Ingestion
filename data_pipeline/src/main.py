@@ -1,6 +1,12 @@
 import sys
 import os
 
+# Add project root to path for direct execution
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
+# Now do absolute imports
 from utils.api_client import fetch_all_countries_multithreaded
 from utils.data_processor import process_countries_data
 from utils.data_storage import save_data_as_dataframe_and_json
