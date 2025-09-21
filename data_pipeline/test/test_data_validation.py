@@ -1,7 +1,7 @@
 import pytest
 import requests
-from src.data_processor import validate_country_data, process_countries_data
-from src.api_client import fetch_all_countries_multithreaded
+from src.utils.data_processor import validate_country_data, process_countries_data
+from src.utils.api_client import fetch_all_countries_multithreaded
 
 def test_api_country_count():
     """Test that we get expected number of countries from API"""
