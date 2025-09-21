@@ -1,20 +1,24 @@
 from logger_config import setup_logger
+from config import VALIDATION_CONFIG
 
 logger = setup_logger()
 
 def validate_country_data(country_data):
     """Comprehensive validation for country data"""
     # Check required fields
-    required_fields = ['name', 'population']
+    required_fields = VALIDATION_CONFIG['required_fields']
     
     for field in required_fields:
         if field not in country_data:
-            logger.warning(f"Missing field {field} in country data: {country_data.get('name', 'Unknown')}")
+            country_name = country_data.get('name', {}).get('common', 'Unknown') if isinstance(country_data.get('name'), dict) else 'Unknown'
+            logger.warning(f"Missing field {field} in country {country_name}")
             return False
     
     # Validate population
-    if not isinstance(country_data['population'], (int, float)) or country_data['population'] < 0:
-        logger.warning(f"Invalid population data for {country_data['name']}")
+    population_min = VALIDATION_CONFIG['population_min']
+    if not isinstance(country_data['population'], (int, float)) or country_data['population'] < population_min:
+        country_name = country_data.get('name', {}).get('common', 'Unknown') if isinstance(country_data.get('name'), dict) else 'Unknown'
+        logger.warning(f"Invalid population data for {country_name}")
         return False
     
     # Validate name structure
@@ -31,7 +35,6 @@ def process_countries_data(countries_data):
     valid_countries = []
     invalid_count = 0
     
-    # Fixed: was "for country in countries_:" 
     for country in countries_data:
         if validate_country_data(country):
             # Clean/normalize data

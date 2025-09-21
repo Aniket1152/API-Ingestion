@@ -1,7 +1,6 @@
 import requests
-import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from config import API_BASE_URL, API_ALL_ENDPOINT, MAX_WORKERS, REQUEST_TIMEOUT
+from config import API_CONFIG, THREADING_CONFIG
 from logger_config import setup_logger
 
 logger = setup_logger()
@@ -10,8 +9,8 @@ def fetch_country_detail(country_name):
     """Fetch detailed data for a single country"""
     try:
         # Using name endpoint to get full details
-        url = f"{API_BASE_URL}/name/{country_name}"
-        response = requests.get(url, timeout=REQUEST_TIMEOUT)
+        url = f"{API_CONFIG['base_url']}/name/{country_name}"
+        response = requests.get(url, timeout=THREADING_CONFIG['request_timeout'])
         
         if response.status_code == 200:
             data = response.json()
@@ -27,13 +26,16 @@ def fetch_country_detail(country_name):
         logger.error(f"Error fetching {country_name}: {str(e)}")
         return None
 
-def fetch_all_countries_multithreaded(max_workers=MAX_WORKERS):
+def fetch_all_countries_multithreaded(max_workers=THREADING_CONFIG['max_workers']):
     """Fetch all countries data using multithreading"""
     logger.info(f"Starting to fetch all countries data with multithreading (max_workers={max_workers})")
     
     # First get the list of all country names
     try:
-        response = requests.get(f"{API_BASE_URL}{API_ALL_ENDPOINT}?fields=name", timeout=REQUEST_TIMEOUT)
+        response = requests.get(
+            f"{API_CONFIG['base_url']}{API_CONFIG['all_endpoint']}?fields=name", 
+            timeout=THREADING_CONFIG['request_timeout']
+        )
         if response.status_code != 200:
             logger.error("Failed to get countries list")
             return []

@@ -1,17 +1,21 @@
 import logging
 import os
-from config import LOG_FILE
+from config import PATHS_CONFIG
 
 def setup_logger():
     # Create logs directory if it doesn't exist
-    os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
+    log_dir = PATHS_CONFIG['logs_dir']
+    os.makedirs(log_dir, exist_ok=True)
+    
+    # Get log file path
+    log_file = PATHS_CONFIG['log_file']
     
     # Configure logger
     logger = logging.getLogger('country_pipeline')
     logger.setLevel(logging.INFO)
     
     # Create file handler
-    file_handler = logging.FileHandler(LOG_FILE)
+    file_handler = logging.FileHandler(log_file)
     file_handler.setLevel(logging.INFO)
     
     # Create formatter

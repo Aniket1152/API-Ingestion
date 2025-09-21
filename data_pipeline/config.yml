@@ -1,0 +1,25 @@
+# API Configuration
+api:
+  base_url: "https://restcountries.com/v3.1"
+  all_endpoint: "/all"
+  fields: "?fields=name,capital,population,region,subregion"
+
+# File paths
+paths:
+  data_dir: "data"
+  logs_dir: "logs"
+  raw_data_file: "data/countries.json"
+  csv_file: "data/countries.csv"
+  log_file: "logs/pipeline.log"
+
+# Threading configuration
+threading:
+  max_workers: 20
+  request_timeout: 30
+
+# Data validation
+validation:
+  required_fields:
+    - name
+    - population
+  population_min: 0
