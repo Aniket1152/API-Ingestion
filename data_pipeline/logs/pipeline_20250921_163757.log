@@ -1,0 +1,259 @@
+2025-09-21 16:37:57,139 - country_pipeline - INFO - Starting country data pipeline
+2025-09-21 16:37:57,140 - country_pipeline - INFO - Starting to fetch all countries data with multithreading (max_workers=20)
+2025-09-21 16:37:58,889 - country_pipeline - INFO - Found 250 countries to fetch
+2025-09-21 16:37:59,554 - country_pipeline - INFO - Successfully fetched data for Latvia
+2025-09-21 16:37:59,559 - country_pipeline - INFO - Successfully fetched data for Lithuania
+2025-09-21 16:37:59,562 - country_pipeline - INFO - Successfully fetched data for Lesotho
+2025-09-21 16:37:59,562 - country_pipeline - INFO - Successfully fetched data for Comoros
+2025-09-21 16:37:59,563 - country_pipeline - INFO - Successfully fetched data for Sint Maarten
+2025-09-21 16:37:59,564 - country_pipeline - INFO - Successfully fetched data for Kuwait
+2025-09-21 16:37:59,564 - country_pipeline - INFO - Successfully fetched data for Tunisia
+2025-09-21 16:37:59,565 - country_pipeline - INFO - Successfully fetched data for Vanuatu
+2025-09-21 16:37:59,572 - country_pipeline - INFO - Successfully fetched data for Jamaica
+2025-09-21 16:37:59,578 - country_pipeline - INFO - Successfully fetched data for Senegal
+2025-09-21 16:37:59,580 - country_pipeline - INFO - Successfully fetched data for Sudan
+2025-09-21 16:37:59,581 - country_pipeline - INFO - Successfully fetched data for Monaco
+2025-09-21 16:37:59,583 - country_pipeline - INFO - Successfully fetched data for Laos
+2025-09-21 16:37:59,791 - country_pipeline - INFO - Successfully fetched data for Greece
+2025-09-21 16:37:59,868 - country_pipeline - INFO - Successfully fetched data for Ecuador
+2025-09-21 16:38:00,209 - country_pipeline - INFO - Successfully fetched data for Montenegro
+2025-09-21 16:38:00,210 - country_pipeline - INFO - Successfully fetched data for Chile
+2025-09-21 16:38:00,230 - country_pipeline - INFO - Successfully fetched data for Luxembourg
+2025-09-21 16:38:00,233 - country_pipeline - INFO - Successfully fetched data for Micronesia
+2025-09-21 16:38:00,234 - country_pipeline - INFO - Successfully fetched data for Morocco
+2025-09-21 16:38:00,249 - country_pipeline - INFO - Successfully fetched data for Costa Rica
+2025-09-21 16:38:00,251 - country_pipeline - INFO - Successfully fetched data for Zimbabwe
+2025-09-21 16:38:00,254 - country_pipeline - INFO - Successfully fetched data for Portugal
+2025-09-21 16:38:00,254 - country_pipeline - INFO - Successfully fetched data for United Arab Emirates
+2025-09-21 16:38:00,281 - country_pipeline - INFO - Successfully fetched data for Nicaragua
+2025-09-21 16:38:00,520 - country_pipeline - INFO - Successfully fetched data for Algeria
+2025-09-21 16:38:00,727 - country_pipeline - INFO - Successfully fetched data for Tanzania
+2025-09-21 16:38:00,896 - country_pipeline - INFO - Successfully fetched data for South Georgia
+2025-09-21 16:38:00,896 - country_pipeline - INFO - Successfully fetched data for Brazil
+2025-09-21 16:38:00,907 - country_pipeline - INFO - Successfully fetched data for Solomon Islands
+2025-09-21 16:38:00,920 - country_pipeline - INFO - Successfully fetched data for Trinidad and Tobago
+2025-09-21 16:38:00,930 - country_pipeline - INFO - Successfully fetched data for Pakistan
+2025-09-21 16:38:00,948 - country_pipeline - INFO - Successfully fetched data for Turks and Caicos Islands
+2025-09-21 16:38:01,006 - country_pipeline - INFO - Successfully fetched data for United Kingdom
+2025-09-21 16:38:01,006 - country_pipeline - INFO - Successfully fetched data for Bahamas
+2025-09-21 16:38:01,034 - country_pipeline - INFO - Successfully fetched data for Tajikistan
+2025-09-21 16:38:01,166 - country_pipeline - INFO - Successfully fetched data for Jersey
+2025-09-21 16:38:01,376 - country_pipeline - INFO - Successfully fetched data for Turkmenistan
+2025-09-21 16:38:01,398 - country_pipeline - INFO - Successfully fetched data for Faroe Islands
+2025-09-21 16:38:01,554 - country_pipeline - INFO - Successfully fetched data for Libya
+2025-09-21 16:38:01,562 - country_pipeline - INFO - Successfully fetched data for Cuba
+2025-09-21 16:38:01,574 - country_pipeline - INFO - Successfully fetched data for Palau
+2025-09-21 16:38:01,602 - country_pipeline - INFO - Successfully fetched data for Bosnia and Herzegovina
+2025-09-21 16:38:01,623 - country_pipeline - INFO - Successfully fetched data for Estonia
+2025-09-21 16:38:01,722 - country_pipeline - INFO - Successfully fetched data for Greenland
+2025-09-21 16:38:01,876 - country_pipeline - INFO - Successfully fetched data for Rwanda
+2025-09-21 16:38:01,998 - country_pipeline - INFO - Successfully fetched data for Pitcairn Islands
+2025-09-21 16:38:02,040 - country_pipeline - INFO - Successfully fetched data for Western Sahara
+2025-09-21 16:38:02,043 - country_pipeline - INFO - Successfully fetched data for Armenia
+2025-09-21 16:38:02,220 - country_pipeline - INFO - Successfully fetched data for Bahrain
+2025-09-21 16:38:02,223 - country_pipeline - INFO - Successfully fetched data for Saint Helena, Ascension and Tristan da Cunha
+2025-09-21 16:38:02,243 - country_pipeline - INFO - Successfully fetched data for Philippines
+2025-09-21 16:38:02,249 - country_pipeline - INFO - Successfully fetched data for Dominican Republic
+2025-09-21 16:38:02,364 - country_pipeline - INFO - Successfully fetched data for Mali
+2025-09-21 16:38:02,422 - country_pipeline - INFO - Successfully fetched data for Chad
+2025-09-21 16:38:02,488 - country_pipeline - INFO - Successfully fetched data for United States
+2025-09-21 16:38:02,541 - country_pipeline - INFO - Successfully fetched data for Botswana
+2025-09-21 16:38:02,545 - country_pipeline - INFO - Successfully fetched data for French Southern and Antarctic Lands
+2025-09-21 16:38:02,637 - country_pipeline - INFO - Successfully fetched data for Montserrat
+2025-09-21 16:38:02,648 - country_pipeline - INFO - Successfully fetched data for Antigua and Barbuda
+2025-09-21 16:38:02,658 - country_pipeline - INFO - Successfully fetched data for Ireland
+2025-09-21 16:38:02,667 - country_pipeline - INFO - Successfully fetched data for Panama
+2025-09-21 16:38:02,704 - country_pipeline - INFO - Successfully fetched data for Maldives
+2025-09-21 16:38:02,741 - country_pipeline - INFO - Successfully fetched data for Guinea
+2025-09-21 16:38:02,767 - country_pipeline - INFO - Successfully fetched data for Christmas Island
+2025-09-21 16:38:02,872 - country_pipeline - INFO - Successfully fetched data for Oman
+2025-09-21 16:38:02,897 - country_pipeline - INFO - Successfully fetched data for Czechia
+2025-09-21 16:38:02,978 - country_pipeline - INFO - Successfully fetched data for Heard Island and McDonald Islands
+2025-09-21 16:38:03,004 - country_pipeline - INFO - Successfully fetched data for British Indian Ocean Territory
+2025-09-21 16:38:03,024 - country_pipeline - INFO - Successfully fetched data for Saint Vincent and the Grenadines
+2025-09-21 16:38:03,086 - country_pipeline - INFO - Successfully fetched data for Haiti
+2025-09-21 16:38:03,181 - country_pipeline - INFO - Successfully fetched data for British Virgin Islands
+2025-09-21 16:38:03,184 - country_pipeline - INFO - Successfully fetched data for Colombia
+2025-09-21 16:38:03,285 - country_pipeline - INFO - Successfully fetched data for Dominica
+2025-09-21 16:38:03,313 - country_pipeline - INFO - Successfully fetched data for Guernsey
+2025-09-21 16:38:03,333 - country_pipeline - INFO - Successfully fetched data for Canada
+2025-09-21 16:38:03,334 - country_pipeline - INFO - Successfully fetched data for Niger
+2025-09-21 16:38:03,345 - country_pipeline - INFO - Successfully fetched data for Indonesia
+2025-09-21 16:38:03,427 - country_pipeline - INFO - Successfully fetched data for Yemen
+2025-09-21 16:38:03,430 - country_pipeline - INFO - Successfully fetched data for Palestine
+2025-09-21 16:38:03,552 - country_pipeline - INFO - Successfully fetched data for Gabon
+2025-09-21 16:38:03,562 - country_pipeline - INFO - Successfully fetched data for Eritrea
+2025-09-21 16:38:03,638 - country_pipeline - INFO - Successfully fetched data for Cyprus
+2025-09-21 16:38:03,689 - country_pipeline - INFO - Successfully fetched data for Bouvet Island
+2025-09-21 16:38:03,855 - country_pipeline - INFO - Successfully fetched data for Hong Kong
+2025-09-21 16:38:03,881 - country_pipeline - INFO - Successfully fetched data for Slovenia
+2025-09-21 16:38:03,968 - country_pipeline - INFO - Successfully fetched data for Germany
+2025-09-21 16:38:03,970 - country_pipeline - INFO - Successfully fetched data for Kiribati
+2025-09-21 16:38:04,045 - country_pipeline - INFO - Successfully fetched data for Nigeria
+2025-09-21 16:38:04,056 - country_pipeline - INFO - Successfully fetched data for Belgium
+2025-09-21 16:38:04,081 - country_pipeline - INFO - Successfully fetched data for Saint Martin
+2025-09-21 16:38:04,105 - country_pipeline - INFO - Successfully fetched data for Cook Islands
+2025-09-21 16:38:04,220 - country_pipeline - INFO - Successfully fetched data for Slovakia
+2025-09-21 16:38:04,275 - country_pipeline - INFO - Successfully fetched data for Bangladesh
+2025-09-21 16:38:04,293 - country_pipeline - INFO - Successfully fetched data for Northern Mariana Islands
+2025-09-21 16:38:04,361 - country_pipeline - INFO - Successfully fetched data for Denmark
+2025-09-21 16:38:04,538 - country_pipeline - INFO - Successfully fetched data for Bermuda
+2025-09-21 16:38:04,549 - country_pipeline - INFO - Successfully fetched data for Gibraltar
+2025-09-21 16:38:04,553 - country_pipeline - INFO - Successfully fetched data for Sri Lanka
+2025-09-21 16:38:04,634 - country_pipeline - INFO - Successfully fetched data for Syria
+2025-09-21 16:38:04,664 - country_pipeline - INFO - Successfully fetched data for Niue
+2025-09-21 16:38:04,703 - country_pipeline - INFO - Successfully fetched data for Peru
+2025-09-21 16:38:04,704 - country_pipeline - INFO - Successfully fetched data for Gambia
+2025-09-21 16:38:04,752 - country_pipeline - INFO - Successfully fetched data for Guinea-Bissau
+2025-09-21 16:38:04,762 - country_pipeline - INFO - Successfully fetched data for Ivory Coast
+2025-09-21 16:38:04,883 - country_pipeline - INFO - Successfully fetched data for Sierra Leone
+2025-09-21 16:38:04,914 - country_pipeline - INFO - Successfully fetched data for Kosovo
+2025-09-21 16:38:04,942 - country_pipeline - INFO - Successfully fetched data for Turkey
+2025-09-21 16:38:04,964 - country_pipeline - INFO - Successfully fetched data for Bolivia
+2025-09-21 16:38:05,171 - country_pipeline - INFO - Successfully fetched data for Eswatini
+2025-09-21 16:38:05,189 - country_pipeline - INFO - Successfully fetched data for Republic of the Congo
+2025-09-21 16:38:05,212 - country_pipeline - INFO - Successfully fetched data for Mozambique
+2025-09-21 16:38:05,213 - country_pipeline - INFO - Successfully fetched data for Israel
+2025-09-21 16:38:05,250 - country_pipeline - INFO - Successfully fetched data for Paraguay
+2025-09-21 16:38:05,291 - country_pipeline - INFO - Successfully fetched data for Åland Islands
+2025-09-21 16:38:05,312 - country_pipeline - INFO - Successfully fetched data for Ukraine
+2025-09-21 16:38:05,321 - country_pipeline - INFO - Successfully fetched data for Malaysia
+2025-09-21 16:38:05,337 - country_pipeline - INFO - Successfully fetched data for Benin
+2025-09-21 16:38:05,375 - country_pipeline - INFO - Successfully fetched data for Sweden
+2025-09-21 16:38:05,431 - country_pipeline - INFO - Successfully fetched data for Tuvalu
+2025-09-21 16:38:05,513 - country_pipeline - INFO - Successfully fetched data for Norway
+2025-09-21 16:38:05,545 - country_pipeline - INFO - Successfully fetched data for South Africa
+2025-09-21 16:38:05,558 - country_pipeline - INFO - Successfully fetched data for Mongolia
+2025-09-21 16:38:05,629 - country_pipeline - INFO - Successfully fetched data for Australia
+2025-09-21 16:38:05,721 - country_pipeline - INFO - Successfully fetched data for Namibia
+2025-09-21 16:38:05,841 - country_pipeline - INFO - Successfully fetched data for Iraq
+2025-09-21 16:38:05,842 - country_pipeline - INFO - Successfully fetched data for Saint Kitts and Nevis
+2025-09-21 16:38:05,963 - country_pipeline - INFO - Successfully fetched data for Azerbaijan
+2025-09-21 16:38:05,987 - country_pipeline - INFO - Successfully fetched data for Iceland
+2025-09-21 16:38:06,020 - country_pipeline - INFO - Successfully fetched data for Venezuela
+2025-09-21 16:38:06,036 - country_pipeline - INFO - Successfully fetched data for Curaçao
+2025-09-21 16:38:06,066 - country_pipeline - INFO - Successfully fetched data for Egypt
+2025-09-21 16:38:06,100 - country_pipeline - INFO - Successfully fetched data for Vietnam
+2025-09-21 16:38:06,100 - country_pipeline - INFO - Successfully fetched data for Ghana
+2025-09-21 16:38:06,101 - country_pipeline - INFO - Successfully fetched data for Barbados
+2025-09-21 16:38:06,154 - country_pipeline - INFO - Successfully fetched data for San Marino
+2025-09-21 16:38:06,168 - country_pipeline - INFO - Successfully fetched data for Malawi
+2025-09-21 16:38:06,171 - country_pipeline - INFO - Successfully fetched data for Falkland Islands
+2025-09-21 16:38:06,354 - country_pipeline - INFO - Successfully fetched data for Taiwan
+2025-09-21 16:38:06,404 - country_pipeline - INFO - Successfully fetched data for Bulgaria
+2025-09-21 16:38:06,651 - country_pipeline - INFO - Successfully fetched data for Angola
+2025-09-21 16:38:06,651 - country_pipeline - INFO - Successfully fetched data for Tonga
+2025-09-21 16:38:06,679 - country_pipeline - INFO - Successfully fetched data for Russia
+2025-09-21 16:38:06,758 - country_pipeline - INFO - Successfully fetched data for North Korea
+2025-09-21 16:38:06,768 - country_pipeline - INFO - Successfully fetched data for Afghanistan
+2025-09-21 16:38:06,774 - country_pipeline - INFO - Successfully fetched data for Croatia
+2025-09-21 16:38:06,866 - country_pipeline - INFO - Successfully fetched data for Cocos (Keeling) Islands
+2025-09-21 16:38:06,866 - country_pipeline - INFO - Successfully fetched data for Bhutan
+2025-09-21 16:38:06,915 - country_pipeline - INFO - Successfully fetched data for Saint Barthélemy
+2025-09-21 16:38:06,983 - country_pipeline - INFO - Successfully fetched data for Andorra
+2025-09-21 16:38:07,019 - country_pipeline - INFO - Successfully fetched data for New Zealand
+2025-09-21 16:38:07,042 - country_pipeline - INFO - Successfully fetched data for Belarus
+2025-09-21 16:38:07,054 - country_pipeline - INFO - Successfully fetched data for Madagascar
+2025-09-21 16:38:07,058 - country_pipeline - INFO - Successfully fetched data for Kyrgyzstan
+2025-09-21 16:38:07,294 - country_pipeline - INFO - Successfully fetched data for Georgia
+2025-09-21 16:38:07,314 - country_pipeline - INFO - Successfully fetched data for Thailand
+2025-09-21 16:38:07,344 - country_pipeline - INFO - Successfully fetched data for India
+2025-09-21 16:38:07,433 - country_pipeline - INFO - Successfully fetched data for Saint Pierre and Miquelon
+2025-09-21 16:38:07,527 - country_pipeline - INFO - Successfully fetched data for Saudi Arabia
+2025-09-21 16:38:07,548 - country_pipeline - INFO - Successfully fetched data for Djibouti
+2025-09-21 16:38:07,565 - country_pipeline - INFO - Successfully fetched data for Iran
+2025-09-21 16:38:07,574 - country_pipeline - INFO - Successfully fetched data for Burkina Faso
+2025-09-21 16:38:07,655 - country_pipeline - INFO - Successfully fetched data for Vatican City
+2025-09-21 16:38:07,673 - country_pipeline - INFO - Successfully fetched data for Timor-Leste
+2025-09-21 16:38:07,690 - country_pipeline - INFO - Successfully fetched data for Ethiopia
+2025-09-21 16:38:07,705 - country_pipeline - INFO - Successfully fetched data for Guatemala
+2025-09-21 16:38:07,713 - country_pipeline - INFO - Successfully fetched data for Martinique
+2025-09-21 16:38:07,765 - country_pipeline - INFO - Successfully fetched data for Cameroon
+2025-09-21 16:38:07,865 - country_pipeline - INFO - Successfully fetched data for Zambia
+2025-09-21 16:38:07,945 - country_pipeline - INFO - Successfully fetched data for Suriname
+2025-09-21 16:38:07,985 - country_pipeline - INFO - Successfully fetched data for Uruguay
+2025-09-21 16:38:08,087 - country_pipeline - INFO - Successfully fetched data for New Caledonia
+2025-09-21 16:38:08,210 - country_pipeline - INFO - Successfully fetched data for Aruba
+2025-09-21 16:38:08,222 - country_pipeline - INFO - Successfully fetched data for Switzerland
+2025-09-21 16:38:08,278 - country_pipeline - INFO - Successfully fetched data for DR Congo
+2025-09-21 16:38:08,342 - country_pipeline - INFO - Successfully fetched data for Malta
+2025-09-21 16:38:08,370 - country_pipeline - INFO - Successfully fetched data for Jordan
+2025-09-21 16:38:08,423 - country_pipeline - INFO - Successfully fetched data for Tokelau
+2025-09-21 16:38:08,435 - country_pipeline - INFO - Successfully fetched data for São Tomé and Príncipe
+2025-09-21 16:38:08,442 - country_pipeline - INFO - Successfully fetched data for Puerto Rico
+2025-09-21 16:38:08,547 - country_pipeline - INFO - Successfully fetched data for El Salvador
+2025-09-21 16:38:08,615 - country_pipeline - INFO - Successfully fetched data for Mauritania
+2025-09-21 16:38:08,622 - country_pipeline - INFO - Successfully fetched data for Poland
+2025-09-21 16:38:08,630 - country_pipeline - INFO - Successfully fetched data for Finland
+2025-09-21 16:38:08,819 - country_pipeline - INFO - Successfully fetched data for Nauru
+2025-09-21 16:38:08,859 - country_pipeline - INFO - Successfully fetched data for Macau
+2025-09-21 16:38:08,873 - country_pipeline - INFO - Successfully fetched data for Guam
+2025-09-21 16:38:08,879 - country_pipeline - INFO - Successfully fetched data for Antarctica
+2025-09-21 16:38:08,912 - country_pipeline - INFO - Successfully fetched data for Guyana
+2025-09-21 16:38:09,003 - country_pipeline - INFO - Successfully fetched data for Myanmar
+2025-09-21 16:38:09,034 - country_pipeline - INFO - Successfully fetched data for Wallis and Futuna
+2025-09-21 16:38:09,062 - country_pipeline - INFO - Successfully fetched data for Qatar
+2025-09-21 16:38:09,110 - country_pipeline - INFO - Successfully fetched data for Mayotte
+2025-09-21 16:38:09,118 - country_pipeline - INFO - Successfully fetched data for France
+2025-09-21 16:38:09,191 - country_pipeline - INFO - Successfully fetched data for Fiji
+2025-09-21 16:38:09,216 - country_pipeline - INFO - Successfully fetched data for Norfolk Island
+2025-09-21 16:38:09,239 - country_pipeline - INFO - Successfully fetched data for Moldova
+2025-09-21 16:38:09,258 - country_pipeline - INFO - Successfully fetched data for Seychelles
+2025-09-21 16:38:09,301 - country_pipeline - INFO - Successfully fetched data for Isle of Man
+2025-09-21 16:38:09,307 - country_pipeline - INFO - Successfully fetched data for South Sudan
+2025-09-21 16:38:09,431 - country_pipeline - INFO - Successfully fetched data for North Macedonia
+2025-09-21 16:38:09,497 - country_pipeline - INFO - Successfully fetched data for Brunei
+2025-09-21 16:38:09,512 - country_pipeline - INFO - Successfully fetched data for Grenada
+2025-09-21 16:38:09,527 - country_pipeline - INFO - Successfully fetched data for Japan
+2025-09-21 16:38:09,527 - country_pipeline - INFO - Successfully fetched data for China
+2025-09-21 16:38:09,547 - country_pipeline - INFO - Successfully fetched data for Italy
+2025-09-21 16:38:09,547 - country_pipeline - INFO - Successfully fetched data for Spain
+2025-09-21 16:38:09,619 - country_pipeline - INFO - Successfully fetched data for Papua New Guinea
+2025-09-21 16:38:09,685 - country_pipeline - INFO - Successfully fetched data for Argentina
+2025-09-21 16:38:09,703 - country_pipeline - INFO - Successfully fetched data for Uzbekistan
+2025-09-21 16:38:09,779 - country_pipeline - INFO - Successfully fetched data for Belize
+2025-09-21 16:38:09,815 - country_pipeline - INFO - Successfully fetched data for Caribbean Netherlands
+2025-09-21 16:38:09,827 - country_pipeline - INFO - Successfully fetched data for Réunion
+2025-09-21 16:38:09,871 - country_pipeline - INFO - Successfully fetched data for Mexico
+2025-09-21 16:38:09,883 - country_pipeline - INFO - Successfully fetched data for United States Virgin Islands
+2025-09-21 16:38:09,931 - country_pipeline - INFO - Successfully fetched data for Togo
+2025-09-21 16:38:09,980 - country_pipeline - INFO - Successfully fetched data for South Korea
+2025-09-21 16:38:09,995 - country_pipeline - INFO - Successfully fetched data for United States Minor Outlying Islands
+2025-09-21 16:38:10,163 - country_pipeline - INFO - Successfully fetched data for Hungary
+2025-09-21 16:38:10,165 - country_pipeline - INFO - Successfully fetched data for Romania
+2025-09-21 16:38:10,183 - country_pipeline - INFO - Successfully fetched data for Somalia
+2025-09-21 16:38:10,191 - country_pipeline - INFO - Successfully fetched data for Marshall Islands
+2025-09-21 16:38:10,278 - country_pipeline - INFO - Successfully fetched data for Burundi
+2025-09-21 16:38:10,363 - country_pipeline - INFO - Successfully fetched data for French Guiana
+2025-09-21 16:38:10,423 - country_pipeline - INFO - Successfully fetched data for American Samoa
+2025-09-21 16:38:10,468 - country_pipeline - INFO - Successfully fetched data for Saint Lucia
+2025-09-21 16:38:10,486 - country_pipeline - INFO - Successfully fetched data for Uganda
+2025-09-21 16:38:10,543 - country_pipeline - INFO - Successfully fetched data for Kazakhstan
+2025-09-21 16:38:10,571 - country_pipeline - INFO - Successfully fetched data for Honduras
+2025-09-21 16:38:10,614 - country_pipeline - INFO - Successfully fetched data for Kenya
+2025-09-21 16:38:10,650 - country_pipeline - INFO - Successfully fetched data for Nepal
+2025-09-21 16:38:10,667 - country_pipeline - INFO - Successfully fetched data for Samoa
+2025-09-21 16:38:10,802 - country_pipeline - INFO - Successfully fetched data for Lebanon
+2025-09-21 16:38:10,853 - country_pipeline - INFO - Successfully fetched data for French Polynesia
+2025-09-21 16:38:10,929 - country_pipeline - INFO - Successfully fetched data for Cayman Islands
+2025-09-21 16:38:11,014 - country_pipeline - INFO - Successfully fetched data for Equatorial Guinea
+2025-09-21 16:38:11,028 - country_pipeline - INFO - Successfully fetched data for Serbia
+2025-09-21 16:38:11,112 - country_pipeline - INFO - Successfully fetched data for Guadeloupe
+2025-09-21 16:38:11,114 - country_pipeline - INFO - Successfully fetched data for Austria
+2025-09-21 16:38:11,124 - country_pipeline - INFO - Successfully fetched data for Netherlands
+2025-09-21 16:38:11,223 - country_pipeline - INFO - Successfully fetched data for Svalbard and Jan Mayen
+2025-09-21 16:38:11,249 - country_pipeline - INFO - Successfully fetched data for Singapore
+2025-09-21 16:38:11,292 - country_pipeline - INFO - Successfully fetched data for Liberia
+2025-09-21 16:38:11,362 - country_pipeline - INFO - Successfully fetched data for Central African Republic
+2025-09-21 16:38:11,438 - country_pipeline - INFO - Successfully fetched data for Cambodia
+2025-09-21 16:38:11,700 - country_pipeline - INFO - Successfully fetched data for Albania
+2025-09-21 16:38:11,723 - country_pipeline - INFO - Successfully fetched data for Mauritius
+2025-09-21 16:38:11,779 - country_pipeline - INFO - Successfully fetched data for Cape Verde
+2025-09-21 16:38:12,012 - country_pipeline - INFO - Successfully fetched data for Anguilla
+2025-09-21 16:38:12,343 - country_pipeline - INFO - Successfully fetched data for Liechtenstein
+2025-09-21 16:38:12,345 - country_pipeline - INFO - Successfully fetched data for 250 countries
+2025-09-21 16:38:12,346 - country_pipeline - INFO - Starting data processing and validation
+2025-09-21 16:38:12,346 - country_pipeline - INFO - Processed 250 valid countries, 0 invalid
+2025-09-21 16:38:12,350 - country_pipeline - INFO - Successfully saved 250 records to c:\Users\ASUS\Documents\GitHub\API-Ingestion\data_pipeline\data\countries.json
+2025-09-21 16:38:12,361 - country_pipeline - INFO - Successfully saved DataFrame with 250 records to c:\Users\ASUS\Documents\GitHub\API-Ingestion\data_pipeline\data\countries.csv
+2025-09-21 16:38:12,362 - country_pipeline - INFO - Pipeline completed successfully

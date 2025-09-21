@@ -1,13 +1,20 @@
 import json
 import pandas as pd
 import os
-from config import RAW_DATA_FILE
+from config import PATHS_CONFIG, PROJECT_ROOT
 from logger_config import setup_logger
 
 logger = setup_logger()
 
-def save_data_to_file(data, filename=RAW_DATA_FILE):
+def save_data_to_file(data, filename=None):
     """Save data to JSON file"""
+    if filename is None:
+        filename = PATHS_CONFIG['raw_data_file']
+    
+    # Handle relative paths
+    if not os.path.isabs(filename):
+        filename = os.path.join(PROJECT_ROOT, filename)
+    
     try:
         # Create data directory if it doesn't exist
         os.makedirs(os.path.dirname(filename), exist_ok=True)
@@ -21,8 +28,15 @@ def save_data_to_file(data, filename=RAW_DATA_FILE):
         logger.error(f"Error saving data to file: {str(e)}")
         return False
 
-def save_dataframe_to_csv(data, csv_filename="data/countries.csv"):
+def save_dataframe_to_csv(data, csv_filename=None):
     """Save data as DataFrame to CSV file"""
+    if csv_filename is None:
+        csv_filename = PATHS_CONFIG['csv_file']
+    
+    # Handle relative paths
+    if not os.path.isabs(csv_filename):
+        csv_filename = os.path.join(PROJECT_ROOT, csv_filename)
+    
     try:
         # Create data directory if it doesn't exist
         os.makedirs(os.path.dirname(csv_filename), exist_ok=True)
@@ -39,8 +53,16 @@ def save_dataframe_to_csv(data, csv_filename="data/countries.csv"):
         logger.error(f"Error saving DataFrame to CSV: {str(e)}")
         return False
 
-def save_data_as_dataframe_and_json(data, base_filename="data/countries"):
+def save_data_as_dataframe_and_json(data, base_filename=None):
     """Save data in both JSON and CSV formats"""
+    if base_filename is None:
+        # Remove extension and use base path
+        base_filename = PATHS_CONFIG['raw_data_file'].replace('.json', '')
+    
+    # Handle relative paths
+    if not os.path.isabs(base_filename):
+        base_filename = os.path.join(PROJECT_ROOT, base_filename)
+    
     try:
         # Save as JSON
         json_filename = f"{base_filename}.json"

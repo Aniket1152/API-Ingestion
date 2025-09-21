@@ -1,5 +1,9 @@
 import yaml
 import os
+from datetime import datetime
+
+# Get the directory where this config file is located (project root)
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 def load_config(config_file="config.yaml"):
     """Load configuration from YAML file"""
@@ -15,7 +19,7 @@ def load_config(config_file="config.yaml"):
         return get_default_config()
 
 def get_default_config():
-    """Return default configuration"""
+    """Return default configuration with proper paths"""
     return {
         'api': {
             'base_url': 'https://restcountries.com/v3.1',
@@ -23,11 +27,11 @@ def get_default_config():
             'fields': '?fields=name,capital,population,region,subregion'
         },
         'paths': {
-            'data_dir': 'data',
-            'logs_dir': 'logs',
-            'raw_data_file': 'data/countries.json',
-            'csv_file': 'data/countries.csv',
-            'log_file': 'logs/pipeline.log'
+            'data_dir': os.path.join(PROJECT_ROOT, 'data'),
+            'logs_dir': os.path.join(PROJECT_ROOT, 'logs'),
+            'raw_data_file': os.path.join(PROJECT_ROOT, 'data', 'countries.json'),
+            'csv_file': os.path.join(PROJECT_ROOT, 'data', 'countries.csv'),
+            'log_file_pattern': os.path.join(PROJECT_ROOT, 'logs', 'pipeline_{}.log')
         },
         'threading': {
             'max_workers': 20,
