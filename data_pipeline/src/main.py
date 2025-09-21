@@ -1,4 +1,9 @@
 import sys
+import os
+
+# Add the parent directory to Python path to import config modules
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+
 from src.api_client import fetch_all_countries_multithreaded
 from src.data_processor import process_countries_data
 from src.data_storage import save_data_as_dataframe_and_json
